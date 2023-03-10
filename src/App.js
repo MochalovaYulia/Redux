@@ -1,4 +1,5 @@
 import './App.css';
+import Comments from './Comments';
 import Likes from './Likes';
 import Title from './Title';
 
@@ -10,8 +11,9 @@ function App() {
           <div className="card-image">
             <img src="./sea.jpg" alt="surfing"/>
             <Title />
-            <Likes />
+            <Likes /> 
           </div>
+          <Comments/>
         </div>
       </div>
     </div>
